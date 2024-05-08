@@ -164,3 +164,5 @@ async function getMe() {
 - Don't AI , Don't Copy , Don't Cheat
 - Don't use other code from other project (COPY PASTE)
 - You can asking for discussion (not solution)
+
+https://vercel.com/supakorns-projects-2eae4ac6/midterm-test-react/7U7a9YFmx3e2Jb2XfygykQFxjrGF
