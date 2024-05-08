@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  /* background-color: red; */
+  background-color: #1e1f25;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: #1e1e1e;
+}
+.App {
+  border: 1px solid white;
+  background-color: #1e1f25;
+  width: 30%;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* align-items: center; */
+}
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+}
+.header button {
+  width: 50px;
+  height: 50px;
+  background-color: #1e1f25;
+}
+.inputbox {
+  position: relative;
+  left: 30px;
+  margin: 20px;
+}
+.inputbox input {
+  width: 80%;
+  background-color: #1e1f25;
+}
+.todolist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.eachTodo {
+  display: flex;
+  gap: 20px;
+}
+.logout {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logout button {
+  margin: 20px;
+  width: 80%;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #1e1f25;
+}
